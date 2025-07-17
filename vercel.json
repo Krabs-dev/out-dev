@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 30
+    },
+    "app/api/auto-resolve/route.ts": {
+      "maxDuration": 300
+    }
+  },
+  "env": {
+    "PRISMA_GENERATE_DATAPROXY": "true"
+  }
+}

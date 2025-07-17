@@ -1,0 +1,1 @@
+ALTER TABLE "markets" ADD COLUMN     "virtualLiquidity" INTEGER NOT NULL DEFAULT 1000;
